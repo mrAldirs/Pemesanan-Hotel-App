@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="120dp"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="Hotel Online"
+        android:textColor="@color/black"
+        android:textSize="28dp" />
+
+    <EditText
+        android:id="@+id/edt_username"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:textSize="14sp"
+        android:singleLine="true"
+        android:hint="Username"
+        android:drawablePadding="8dp"
+        android:drawableStart="@drawable/username"
+        android:layout_marginHorizontal="16dp"/>
+
+    <EditText
+        android:id="@+id/edt_password"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:textSize="14sp"
+        android:singleLine="true"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_marginTop="8dp"
+        android:drawablePadding="8dp"
+        android:drawableStart="@drawable/password"
+        android:layout_marginHorizontal="16dp"/>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="end"
+        android:layout_marginEnd="16dp"/>
+</androidx.appcompat.widget.LinearLayoutCompat>
